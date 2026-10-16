@@ -1,0 +1,6 @@
+{
+  "name": "KARBON - Coal Mine Carbon Footprint & Neutrality Roadmap",
+  "description": "Coal mine carbon management platform to measure emissions, analyze operational hotspots, set reduction targets, and execute a structured carbon neutrality roadmap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

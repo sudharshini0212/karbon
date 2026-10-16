@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KARBON - Coal Mine Carbon Footprint & Neutrality Roadmap</title>
+    <meta name="description" content="Calculate, analyse and manage carbon emissions from coal-mine operations while planning a structured path towards carbon neutrality." />
+    <meta property="og:title" content="KARBON - Coal Mine Carbon Footprint & Neutrality Roadmap" />
+    <meta property="og:description" content="Calculate, analyse and manage carbon emissions from coal-mine operations while planning a structured path towards carbon neutrality." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Ignore WebSocket closure errors in AI Studio iframe environment where HMR is disabled
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && (
+          event.reason.message === 'WebSocket closed without opened.' ||
+          (typeof event.reason === 'string' && event.reason.includes('WebSocket')) ||
+          (event.reason.stack && event.reason.stack.includes('vite'))
+        )) {
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        if (event.message && (event.message.includes('WebSocket') || event.message.includes('[vite]'))) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
